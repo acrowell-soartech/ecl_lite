@@ -33,4 +33,5 @@ add_subdirectory(src)
 
 ament_export_interfaces(HAS_LIBRARY_TARGET ${PROJECT_NAME})
 ament_export_dependencies(ecl_config)
+ament_export_include_directories(include)
 ament_package()
